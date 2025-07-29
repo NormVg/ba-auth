@@ -6,13 +6,12 @@ export const auth = betterAuth({
   advanced: {
     crossSubDomainCookies: {
       enabled: true,
-      domain: "localtest.me",
+      domain: "taohq.org",
     },
   },
   trustedOrigins: [
-    "http://example.localtest.me:3000",
-    "http://auth.localtest.me:3000",
-    "http://app.localtest.me:3000",
+    "https://auth.taohq.org",
+    "https://app.taohq.org",
   ],
 
   emailAndPassword: {
